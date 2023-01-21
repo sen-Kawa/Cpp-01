@@ -13,7 +13,10 @@ int	main(void)
 	zombie = newZombie(input);	
 	zombie->announce();
 	delete (zombie);
-
-	
+	std::cout
+		<< "Name your chump"
+	<< std::endl;
+	std::cin >> input;
+	randomChump(input);	
 	return (0);
 }
