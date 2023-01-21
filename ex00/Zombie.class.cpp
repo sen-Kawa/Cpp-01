@@ -23,7 +23,7 @@ Zombie::Zombie(void)
 Zombie::~Zombie(void)
 {
 	std::cout
-		<< this->name << "is back underground"
+		<< this->name << " is back underground."
 	<< std::endl;
 	return ;
 }
