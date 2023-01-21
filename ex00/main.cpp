@@ -7,14 +7,14 @@ int	main(void)
 	std::string	input;
 	
 	std::cout
-		<< "Name your zombie"
+		<< "Name your zombie:"
 	<< std::endl;
 	std::cin >> input;
 	zombie = newZombie(input);	
 	zombie->announce();
 	delete (zombie);
 	std::cout
-		<< "Name your chump"
+		<< "Name your chump:"
 	<< std::endl;
 	std::cin >> input;
 	randomChump(input);	

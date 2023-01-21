@@ -1,4 +1,5 @@
 #include "Zombie.class.hpp"
+#include <iostream>
 
 void Zombie::assign_name(std::string name)
 {
@@ -21,5 +22,8 @@ Zombie::Zombie(void)
 
 Zombie::~Zombie(void)
 {
+	std::cout
+		<< this->name << "is back underground"
+	<< std::endl;
 	return ;
 }
