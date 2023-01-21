@@ -9,7 +9,7 @@ void Zombie::assign_name(std::string name)
 void Zombie::announce(void)
 {
 	std::cout 
-		<< this->name << "BraiiiiiiinnnzzzZ..."
+		<< this->name << ": " << "BraiiiiiiinnnzzzZ..."
 	<< std::endl;
 	return ;
 }
