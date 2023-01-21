@@ -8,14 +8,22 @@ int	main(void)
 	std::string &stringREF = str;
 	
 	std::cout
+		<< std::endl
 		<< "Memory address of string variable: "
 		<< &str << std::endl
 		<< "Memory address held by stringPTR: "
-		<< &stringPTR << std::endl
+		<< stringPTR << std::endl
 		<< "Memory address held by stringREF: "
 		<< &stringREF << std::endl
 	<< std::endl;
+	std::cout
+		<< std::endl
+		<< "Value of string variable: "
+		<< str << std::endl
+		<< "Value pointed to by stringPTR: "
+		<< *stringPTR << std::endl
+		<< "Value pointed to by stringREF: "
+		<< stringREF << std::endl
+	<< std::endl;
 	return (0);
-
-
 }
