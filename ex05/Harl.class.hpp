@@ -1,7 +1,7 @@
 #ifndef HARL_CLASS_HPP
 # define HARL_CLASS_HPP
 
-#include <string>
+#include <iostream>
 
 class	Harl
 {
