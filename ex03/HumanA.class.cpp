@@ -6,7 +6,7 @@
 void	HumanA::attack(void)
 {
 	std::cout
-		<< name << "attacks with their" << weapon.getType()
+		<< name << " attacks with their " << weapon.getType()
 	<< std::endl;
 	return ;
 }

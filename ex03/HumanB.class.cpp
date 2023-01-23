@@ -1,8 +1,13 @@
-#include "Weapon.class.hpp"
 #include "HumanB.class.hpp"
 
-HumanB::HumanB(void)
+void	HumanB::attack()
 {
+	return ;
+}
+
+HumanB::HumanB(std::string name) : name(name)
+{
+	weapon = NULL;
 	return ;
 }
 
