@@ -1,8 +1,8 @@
 #ifndef HUMANB_CLASS_HPP
 # define HUMANB_CLASS_HPP
 
-#include <string>
 #include "Weapon.class.hpp"
+#include <string>
 
 class HumanB
 {
@@ -15,7 +15,7 @@ class HumanB
 
 			void attack(void);
 
-			HumanB(void);
+			HumanB(std::string name);
 			~HumanB(void);
 };
 
