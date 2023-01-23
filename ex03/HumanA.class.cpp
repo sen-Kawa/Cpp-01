@@ -11,7 +11,7 @@ void	HumanA::attack(void)
 	return ;
 }
 
-HumanA::HumanA(std::string name, Weapon weapon) : name(name), weapon(weapon)
+HumanA::HumanA(std::string name, Weapon &weapon) : name(name), weapon(weapon)
 {
 	return ;
 }

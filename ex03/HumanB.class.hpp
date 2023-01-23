@@ -2,6 +2,7 @@
 # define HUMANB_CLASS_HPP
 
 #include "Weapon.class.hpp"
+#include <iostream>
 #include <string>
 
 class HumanB
@@ -14,7 +15,7 @@ class HumanB
 		public:
 
 			void	attack(void);
-			void	setWeapon(Weapon weapon);
+			void	setWeapon(Weapon &weapon);
 
 			HumanB(std::string name);
 			~HumanB(void);
