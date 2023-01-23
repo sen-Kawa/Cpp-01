@@ -23,11 +23,17 @@ void Harl::info(void)
 
 void Harl::warning(void)
 {
+	std::cout
+		<< "I think I deserve to have some extra bacon for free. I’ve been coming for years whereas you started working here since last month."	
+	<< std::endl;
 	return ;
 }
 
 void Harl::error(void)
 {
+	std::cout
+		<< "This is unacceptable! I want to speak to the manager now."
+	<< std::endl;
 	return ;
 }
 
