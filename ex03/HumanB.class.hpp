@@ -13,7 +13,7 @@ class HumanB
 
 		public:
 
-			void attack();
+			void attack(void);
 
 			HumanB(void);
 			~HumanB(void);
